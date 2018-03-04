@@ -378,10 +378,14 @@ section {
 
 @media (max-width:767px) {
 	.main{
+		width: 767px;
+		word-wrap: break-word;
 		background-position: top left;
+		width: 100%;
 	}
 	.main-content{
 		margin-top: 3rem;
+		text-align: center;
 	}
 .header{
 	text-align: center;
